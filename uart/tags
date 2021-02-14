@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+KERN_SRC	Makefile	/^KERN_SRC=\/home\/hrishi\/eos_labs\/linux-3.16.49\/$/;"	m
+obj-m	Makefile	/^obj-m = uart_char_driver.o$/;"	m
+MAJOR_NO	uart_char_driver.c	11;"	d	file:
+MYCLASS	uart_char_driver.c	12;"	d	file:
+MYDEVICE	uart_char_driver.c	13;"	d	file:
+UART_FR_RXFE	uart_char_driver.c	/^	UART_FR_RXFE = 0x10,$/;"	e	enum:__anon1	file:
+UART_FR_TXFF	uart_char_driver.c	/^	UART_FR_TXFF = 0x20,$/;"	e	enum:__anon1	file:
+UART0_ADDR	uart_char_driver.c	/^	UART0_ADDR = 0x101F1000,$/;"	e	enum:__anon1	file:
+uart_data	uart_char_driver.c	/^static u16 uart_data;$/;"	v	file:
+uartDrRegion	uart_char_driver.c	/^void *uartDrRegion = NULL;$/;"	v
+uartFrRegion	uart_char_driver.c	/^void *uartFrRegion = NULL;$/;"	v
+uart_read	uart_char_driver.c	/^ssize_t uart_read(struct file *filp, char *buf,$/;"	f
+uart_write	uart_char_driver.c	/^ssize_t uart_write( struct file *filp, const char *buf,$/;"	f
+f_ops	uart_char_driver.c	/^struct file_operations f_ops = {$/;"	v	typeref:struct:file_operations
+init_mod	uart_char_driver.c	/^int init_mod(void)$/;"	f
+exit_mod	uart_char_driver.c	/^void exit_mod(void)$/;"	f
+init_mod	uart_char_driver.c	/^module_init(init_mod);$/;"	v
+exit_mod	uart_char_driver.c	/^module_exit(exit_mod);$/;"	v
+__this_module	uart_char_driver.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	uart_char_driver.mod.c	/^__used$/;"	v	file:
